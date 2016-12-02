@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Duo Housing &#187; Your Home Away From Home!</title>
+  <title>Duo Nomad &#187; Your Home Away From Home!</title>
   <meta name="description" content="Washington DC, Hostel, Lodging, Accommodation">
   <!-- Responsive helper -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -46,7 +46,7 @@
           <div class="col-md-8 col-sm-8">
             <ul class="inline-list uppercase font-small header-meta">
               <li><i class="icon-312 font-13x"></i> 1223 11th St NW, Washington, DC 20001</li>
-              <li><i class="icon-402 font-13x"></i> info@duohousing.com</li>
+              <li><i class="icon-402 font-13x"></i> info@duonomad.com</li>
             </ul>
           </div>
 
@@ -71,8 +71,8 @@
         <div class="row">
           <div class="col-md-3 col-xs-8">
             <!-- Logo Area -->
-            <figure class="identity">
-              <span class="font-2x">DUO HOUSING</span>
+            <figure class="identity hidden-xs">
+              <span class="font-2x">Duo Nomad</span>
             </figure>
           </div>
           <!-- /.col-md-2 -->
@@ -163,7 +163,7 @@
           entirety of their reservation. We do not accept or acknowledge any “group” reservation, nor do we offer any
           special pricing, discounts, or services for “groups”. There is a limit for reservations of 14 days in any
           given calendar year. If you are a resident of Washington DC, Virginia, or Maryland, you are restricted to a
-          total of 1 day in any 30 day period at Duo Housing DC.
+          total of 1 day in any 30 day period at Duo Nomad DC.
         </p>
 
         <h4 style="margin-top: 10px !important; text-transform: uppercase; font-weight: bold;">
@@ -180,13 +180,13 @@
         </h4>
         <p>
           By checking in the guest acknowledges all statements herein.
-          By checking in the guest understands that this is NOT A LEASE and their stay at Duo Housing is TEMPORARY ONLY.
+          By checking in the guest understands that this is NOT A LEASE and their stay at Duo Nomad is TEMPORARY ONLY.
           This is not accommodations for long term. As such, the guest understands and agrees that they have no legal
           tenant rights as prescribed by law; rather they are held to the short term housing and hoteliers law and
           statutes.
           By checking in the guest agrees to abide by all rules set forth herein as well as follow the legal direction
-          of Duo Housing staff, employees, managers, and its agents. Should a guest fail to comply with any of the
-          herein agreed to terms and conditions, Duo Housing reserves the right to charge the guest $25 – $1000 per
+          of Duo Nomad staff, employees, managers, and its agents. Should a guest fail to comply with any of the
+          herein agreed to terms and conditions, Duo Nomad reserves the right to charge the guest $25 – $1000 per
           infraction and / or request that the guest vacate the property immediately. You are free to register with the
           front desk at any time, but you are not permitted to remain on property until 3pm on the day of your check in.
         </p>
@@ -285,13 +285,13 @@
         <p>
           All common areas are secured with CCTV digital recording cameras. By checking in to the property you
           acknowledge that recording is in progress. While every attempt is made to provide a safe and secure housing
-          solution, Duo Housing Inc, its management, staff, and associates take no responsibility for any personal
+          solution, Duo Nomad Inc, its management, staff, and associates take no responsibility for any personal
           belongings; the guest is responsible for the security of all their personal belongings.
-          Guest understands that Duo Housing, its staff and management are not responsible in any way for any injuries
+          Guest understands that Duo Nomad, its staff and management are not responsible in any way for any injuries
           caused while guest is on the property. Guest assumes all risk and any subsequent responsibility to their well
-          being while at Duo Housing.  Furthermore, by agreeing to the Terms & Conditions Guest agrees to waive all
-          perceived or actual responsibility against Duo Housing, its staff, and management for any injuries occurred
-          while at Duo Housing
+          being while at Duo Nomad.  Furthermore, by agreeing to the Terms & Conditions Guest agrees to waive all
+          perceived or actual responsibility against Duo Nomad, its staff, and management for any injuries occurred
+          while at Duo Nomad
         </p>
       </div>
 
@@ -306,11 +306,11 @@
         <div class="footer-sidebar row">
 
           <div class="col-md-6 widget">
-            <h4>DUO Housing</h4>
+            <h4>Duo Nomad</h4>
             <ul class="clean-list contact-info text-dark-blue uppercase">
               <li><i class="icon-338 font-2x"></i> <b>Address: </b> 1223 11TH ST NW, WASHINGTON, DC 20001</li>
               <li><i class="icon-274 font-2x"></i> <b>E-mail: </b> <a
-                  href="mailto:otelia@gmail.com">info@duohousing.com</a></li>
+                  href="mailto:otelia@gmail.com">info@duonomad.com</a></li>
               <li><i class="icon-402 font-2x"></i> <b>Phone: </b> (202) 808-2195</li>
             </ul>
           </div>
@@ -352,7 +352,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="application/javascript">
   function book() {
-    var url = 'http://reservation.bookhostels.com/duohousing.com/property/47670/';
+    var url = 'http://reservation.bookhostels.com/duonomad.com/property/47670/';
     var date_start_p = '?dateStart=';
     var num_nights_p = '&numNights=';
     var num_guests_p = '&numGuests=';
@@ -410,14 +410,14 @@
       submitHandler: function (form) {
         console.log('valid');
         $.ajax({
-          url: "//formspree.io/info@duohousing.com",
+          url: "//formspree.io/info@duonomad.com",
           method: "POST",
           data: $(form).serialize(),
           dataType: "json",
           success: function (data) {
             $("form#reservation_form :input").prop("disabled", true);
             var result = $(form).find('.tt-notice');
-            result.text('Thanks. Your message has been sent to DUO Housing.');
+            result.text('Thanks. Your message has been sent to Duo Nomad.');
           }
         });
         return false;

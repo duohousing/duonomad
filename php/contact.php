@@ -1,5 +1,5 @@
 <?php
-$receiver_mail = 'contact@duohousing.com';
+$receiver_mail = 'contact@duonomad.com';
 $mail_title    = ( ! empty( $_POST[ 'phone' ] )) ? $_POST[ 'name' ] . ' from ' . $_POST[ 'phone' ] : ' from [WebSite]';
 
 /* SECTION II - CODE */
