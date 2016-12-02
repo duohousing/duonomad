@@ -1,2 +1,2 @@
-# duohousing.github.io
-DUO Hosting Web
+# DUO Nomad
+DUO Nomad Web
